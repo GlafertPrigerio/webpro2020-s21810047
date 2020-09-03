@@ -48,7 +48,7 @@ console.log(tambah(kali(5,2),kali (10,2)));
 const luasSegitiga = function Aritmetik (a, b , c) {c
 let stengah = 0,5;
     let total = stengah * b * c;
-    console.log(aritmetik(1,2,3));
+     
     return total;
  
 }
