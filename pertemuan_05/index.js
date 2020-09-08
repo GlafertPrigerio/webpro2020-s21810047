@@ -71,13 +71,12 @@ let buah1 = ["Semangka","Mellon","Apel","Jeruk"]
 buah.splice(2, 0, "Mellon", "Semangka");
 console.log(buah1.join(" - "))
 
-//b. slice
-//let buah3 = ["Semangka","Mellon","Apel","Jeruk"]
-//buah3 = buah1()
-//console.log(buah3.join(" - "));
+let buah3 = ["Semangka","Mellon","Apel","Jeruk"]
+let b1 = buah1.slice(3)
+console.log(b1.join(" - "));
 //7.forEach, map
 //a. forEach
-let angka1 = [1, 2, 3, 4, 5, 6, 7, 8];
+let angka1 = [1, 2, 3, 4,.slice(3), 61 8];
 
 let tampilAngka = function (el){
 return el;
