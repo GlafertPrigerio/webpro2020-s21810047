@@ -83,5 +83,48 @@ customer1.HasilCari();
 customer2.Hasil();
 perbandingan();
 
+/*JavaScript Looping (Persyaratan)
+------------------------------- */
+//a. For Loop
+for (let i = 10; i <= 20; i++) {
+  console.log(i)
+};
 
+//b. For/In Loop
+const Student = {
+  Name: "Glafert",
+  Nilai: "90",
+};
+for (a in Student) {
+ console.log(a, ':', Student[a]);
+}
+
+//c. For/Of Loop
+const Hari = ["Minggu",  
+   "Senin","Selasa","Rabu","Kamis","Jumat" ,
+   "Sabtu"
+];
+
+for (a of Hari) {
+  console.log(a);
+}
+
+//d. While Loop
+let Ne = {
+  Nama : "Glafert",
+  PR : 0,
+};
+
+while (Ne.PR <9)
+{Ne.PR++;
+  console.log("Selamat " + Ne.Nama + " Mengerjakan tugas ke " + Ne.PR);
+};
+// e. Do while loop
+let ai = 0;
+const nama = "Glafert"
+do {
+  console.log("Selamat " + nama + " Mengerjakan tugas ke " + ai);
+  ai++;
+ } 
+while (ai <= 10);
 
