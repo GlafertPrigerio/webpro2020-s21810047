@@ -16,7 +16,7 @@ const mhs1 = {
     IPSemester: [3.05, 3.25, 3.0, 3,4],
     HitungIPK: Function() {
     let total= 0;
-    this.IPSemester.forEach(function(el) {
+    mhs1.IPSemester forEach(function(el) {
         total = total + el;
     });
     this.IPKumulatif = total / 4;

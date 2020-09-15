@@ -119,6 +119,7 @@ while (Ne.PR <9)
 {Ne.PR++;
   console.log("Selamat " + Ne.Nama + " Mengerjakan tugas ke " + Ne.PR);
 };
+
 // e. Do while loop
 let ai = 0;
 const nama = "Glafert"
