@@ -78,7 +78,7 @@ console.log(b1.join(" - "));
 //a. forEach
 let angka1 = [1, 2, 3, 4,.slice(3), 61 8];
 
-let tampilAngka = function (el){
+let tampilAngka = foreach = function (el){
 return el;
 };
 //sort
