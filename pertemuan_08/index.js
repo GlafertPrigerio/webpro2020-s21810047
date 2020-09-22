@@ -16,5 +16,12 @@ let account = {
 account.addExpenses('Membeli Makanan', 15.000);
 account.addExpenses('Ongkos Gojek', 50000);
 console.log("Total pengeluaran " + account.name + "adalah Rp." + account.getAccountSummary());
-
+//---------------------------------
 //Asingment #2
+
+const human =
+{
+    name : 'glafert'
+}
+
+console.log(human.['name'])
