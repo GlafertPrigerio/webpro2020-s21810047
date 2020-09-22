@@ -45,7 +45,6 @@ let customer1 = {
 customer1.HasilCari();
 customer2.Hasil();
 //2. Switch Case
-
   // studentName: 'Prigerio',
     // nilai: 80,
     //   studentName: 'Eric',
