@@ -35,3 +35,17 @@ const Random = () => {
   return angka[Math.floor(Math.random()*(angka.length))];
 }
   console.log(Random());
+
+  //excercise
+  const yearsUntilRetirement = (year , firstName ="Glafert") => { // Arrow Function & Default
+    const age =`${28}`;  //Template Literal
+    const retirement = 65 - age;
+    if (retirement > 0) {
+      console.log(` ${firstName} retired in ${retirement} years` );
+    }
+    else {
+      console.log(`${firstName} is already retired`);
+    }
+  }
+
+yearsUntilRetirement(2001);
