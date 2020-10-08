@@ -11,9 +11,10 @@ let user = {
     gender: "Male",
     age: 19,
 };
+
 let (nama, umur) => {
     let{nama, umur} =user;
-console.log(`nama saya adalah ${nama}, umur saya adalah ${umur});
+console.log(`nama saya adalah ${nama}, umur saya adalah ${umur}`);
 }
 
 
