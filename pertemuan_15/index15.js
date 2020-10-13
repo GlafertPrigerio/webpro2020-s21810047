@@ -12,9 +12,8 @@ let user = {
     age: 19,
 };
 
-let (nama, umur) => {
-    let{nama, umur} =user;
-console.log(`nama saya adalah ${nama}, umur saya adalah ${umur}`);
+const display = ({name, age }) => {
+console.log(`nama saya adalah ${name}, umur saya adalah ${age}`);
 }
 
 
@@ -24,6 +23,12 @@ console.log(`nama saya adalah ${nama}, umur saya adalah ${umur}`);
 // }
 
 //Array object
+
+const users = [
+    { id:1, name:"Glafert" },
+    { id:2, name:"Glary" },
+    { id:3, name:"Gladrin " },
+]
 
 //kombinasi Rest Operator
 
