@@ -11,5 +11,5 @@ let user = {
     gender: "Male",
     age: 19,
 };
-let {name:nama, gender:umur} = user;
-console.log(nama, umur);
+let {name:nama, gender:umur ,city="Kotamobagu"} = user;
+console.log(nama, umur, city);
