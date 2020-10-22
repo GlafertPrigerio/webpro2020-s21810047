@@ -11,3 +11,4 @@ const first = ( => {
     second()
     console.log('The End');
 })
+
