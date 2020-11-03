@@ -57,6 +57,6 @@ Prigerio.displayFullName();
 Prigerio.displayNIM();
 Student.sayHello();
 
-Prigerio.studentScore = 90;
+Prigerio.studentScore = 90; 
 console.log(Prigerio.studentScore)
 
