@@ -19,7 +19,8 @@ yearUntilRetirement(
     {BirthYear: 1987, firstName: 'John'}
     );
 
-//2. ------------------------------
+
+//2. ------------------------------988
 const addNumber = (a, b, c, d, e, f, g) => {
     let numbers = [a, b, c, d, e, f, g];
     let sum = 0;

@@ -37,7 +37,7 @@ const Random = () => {
   console.log(Random());
 
   //excercise
-  const yearsUntilRetirement = (year , firstName ="Glafert") => { // Arrow Function & Default
+  const yearsUntilRetirement = (year , firstName ="Glafert") => { // Arrow Function & Default---------
     const age =`${28}`;  //Template Literal
     const retirement = 65 - age;
     if (retirement > 0) {
